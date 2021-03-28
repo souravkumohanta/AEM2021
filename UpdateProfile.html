@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employment</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="Updateprofile.css">
+  </head>
+  <body>
+    <div class="testbox">
+    <form action="/">
+      <div class="banner">
+        <h1>UPDATE YOUR PROFILE </h1>
+      </div>
+      <p>Please fill out with the information that is requested below to update your details. Thank you!</p>
+      <hr/>
+      <fieldset>
+        <legend>Delivery Information</legend>
+        <div class="item">
+          <label for="name">Locality<span>*</span></label>
+          <input id="name" type="text" name="text" required/>
+        </div>
+        <div class="item">
+          <label for="address"> Address<span>*</span></label>
+          <input id="address" type="text" name="text" placeholder="Street Address" required/>
+        </div>
+        <div class="item">
+          <div class="name-item">
+            <div>
+              <input type="text" name="city" placeholder="City" />
+            </div>
+            <div>
+              <input type="text" name="state" placeholder="State/region" />
+            </div>
+          </div>
+          <div class="item">
+            <div class="name-item">
+              <div>
+                <input type="text" name="code" placeholder="ZIP Code" />
+              </div>
+              <div>
+                <select>
+                  <option selected value="" disabled selected>Country</option>
+                  <option value="1">Russia</option>
+                  <option value="2">Germany</option>
+                  <option value="3">France</option>
+                  <option value="4">Armenia</option>
+                  <option value="5">USA</option>
+                  <option value="6">Spain</option>
+                  <option value="7">Italy</option>
+                  <option value="8">India</option>
+                </select>
+              </div>
+            </div>
+          </div>
+      </fieldset>
+      </br>
+      <fieldset>
+      <legend>Personal Information: </legend>
+      <div class="item">
+      <label for="name">Name<span>*</span></label>
+      <div class="name-item">
+      <input id="name" type="text" name="name" placeholder="First" required/>
+      <input id="name" type="text" name="name" placeholder="Last" required/>
+      </div>
+      </div>
+      <div class="item">
+      <label for="bdate">Date of Birth<span>*</span></label>
+      <input id="bdate" type="date" name="bdate" required/>
+      <i class="fas fa-calendar-alt"></i>
+      </div>
+      <div class="item">
+      <label for="email">Email<span>*</span></label>
+      <input id="email" type="text" name="text" required/>
+      </div>
+      <div class="item">
+      <label for="position">Password<span>*</span></label>
+      <input id="position" type="text" name="text" required />
+      </div>
+      <fieldset>
+      <div class="btn-block">
+      <button type="submit" href="/">APPLY</button>
+      </div>
+    </form>
+    </div>
+  </body>
+</html>
